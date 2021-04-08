@@ -1,0 +1,75 @@
+.wrapper {
+    padding: 60px;
+}
+
+.machine {
+    padding: 60px;
+    background: #d9d6d6;
+}
+
+.machine > div {
+    display: flex;
+    align-content: stretch;
+}
+
+.display {
+    padding: 60px;
+    background: #324375;
+    color: #fff;
+    width: 60%;
+    min-height: 400px;
+}
+
+.display .has-money {
+    font-size: 28px;
+}
+
+.money-receiver {
+    padding: 60px;
+    background: #8f8e8e;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.change {
+    margin-top: 30px;
+}
+
+.btn {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 18px;
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+}
+
+.btn:disabled {
+    border: 2px solid #383838;
+    color: #383838;
+}
+
+.receiver {
+    font-size: 18px;
+    color: #fff;
+}
+
+.errors {
+    font-size: 18px;
+    text-align: center;
+    color: #e75f5f;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.dispenser {
+    border: 2px dotted #fff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+}
